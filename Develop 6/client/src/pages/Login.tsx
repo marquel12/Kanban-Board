@@ -1,14 +1,15 @@
 import { useState, FormEvent, ChangeEvent } from "react";
+import {UserLogin} from '../interfaces/UserLogin';  
 
 import Auth from '../utils/auth';
 import { login } from "../api/authAPI";
 
 const Login = () => {
-  const [loginData, setLoginData] = useState({
+  const [loginData, setLoginData] = useState <UserLogin>({
+   
     username: '',
     password: ''
   });
-
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setLoginData({
@@ -16,6 +17,7 @@ const Login = () => {
       [name]: value
     });
   };
+  
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
