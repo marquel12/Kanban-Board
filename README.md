@@ -6,6 +6,9 @@ The purpose is to build a Kanban Board app for product development
 # Description
 The purpose of this project is to create a Readme Generator that will allow the user to create a professional README.md file for their project. This will help the user save time and focus on the project itself.
 
+## Challenge
+This challenge help me understand more about how important it is to utilize authentication with JSON Web Tokens (JWTs). This help avoid anyone from gaining access to your application without being authorized.
+
  ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
