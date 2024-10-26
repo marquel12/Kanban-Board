@@ -32,14 +32,12 @@ The purpose of this project is to create a Readme Generator that will allow the 
 
 
   ## Usage
-  Here is the login page:
+  # Here is the login page:
   ![Login page](image.png)
-  Here is the main page"
+  # Here is the main page"
   ![Main page](image-1.png)
   
 
- 
-  
 
   ## Credits 
   Starter code credit to Rutgers boot camp 
