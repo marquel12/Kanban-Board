@@ -5,6 +5,7 @@ import auth from '../utils/auth';
 const Navbar = () => {
   const [ loginCheck, setLoginCheck ] = useState(false);
 
+
   const checkLogin = () => {
     if(auth.loggedIn()) {
       setLoginCheck(true);
@@ -12,7 +13,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    console.log(loginCheck);
+    console.log(loginCheck); // this 
     checkLogin();
   }, [loginCheck])
 
@@ -33,6 +34,9 @@ const Navbar = () => {
           <li className='nav-item'>
             <button type='button' onClick={() => {
               auth.logout();
+              setLoginCheck(false);
+              
+
             }}>Logout</button>
           </li>
         )

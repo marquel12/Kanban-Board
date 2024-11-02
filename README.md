@@ -4,10 +4,10 @@ The purpose is to build a Kanban Board app for product development
 
 
 # Description
-The purpose of this project is to create a Readme Generator that will allow the user to create a professional README.md file for their project. This will help the user save time and focus on the project itself.
+The purpose of this project was to create a popular project management app "kanban." This will help organize individual or group projects. Adding JSON Web Token allow me secure the frontend of the app. This will ensure users are logged in before gaining access to the app. 
 
 ## Challenge
-This challenge help me understand more about how important it is to utilize authentication with JSON Web Tokens (JWTs). This help avoid anyone from gaining access to your application without being authorized.
+This challenge help me understand more about how important it is to utilize authentication with JSON Web Tokens (JWTs). This help avoid anyone from gaining access to your application without being authorized. My biggest challenge is when you first open the page, the logout button show at the top instead of the login page. I spent hours trying to figure out why but could not come up with a solution. As a result, users would have to click on logout and then they will be directed to login and gain access to the Kanban features. I look forward to coming back to this app and fixing this issue. 
 
  ## Table of Contents
   * [Installation](#installation)
@@ -35,10 +35,10 @@ This challenge help me understand more about how important it is to utilize auth
 
 
   ## Usage
-  # Here is the login page:
-  ![Login page](image.png)
-  # Here is the main page"
+  
+  ## Here is the main page
   ![Main page](image-1.png)
+  CHeck out my deploy link here [Kanban Board](https://kanban-board-x17f.onrender.com)
   
 
 

@@ -17,9 +17,10 @@ const Board = () => {
   const [loginCheck, setLoginCheck] = useState(false);
 
   const checkLogin = () => {
-    if(auth.loggedIn()) {
+    if(auth.loggedIn()) { // Check if user is logged in and set loginCheck to true
       setLoginCheck(true);
     }
+    
   };
 
   const fetchTickets = async () => {
