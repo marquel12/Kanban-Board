@@ -28,6 +28,7 @@ class AuthService {
       }
     } catch (err) {
       // If decoding fails (e.g., due to an invalid token format), catch the error and return false.
+      console.log("token is not expired");
       return false;
     }
   }
@@ -35,7 +36,7 @@ class AuthService {
   getToken(): string {
     // TODO: return the token
     const loggedUser = localStorage.getItem("id_token");
-    return loggedUser ? loggedUser : "no token found "; // return the token from localStorage or a string indicating no token found
+    return loggedUser ? loggedUser : ""; // empty string returns false and any other string with words returns true
   }
 
   login(idToken: string) {
